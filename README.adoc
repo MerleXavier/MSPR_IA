@@ -1,12 +1,10 @@
 # MSPR Big DATA & Annalyse de donnée
 ---
-[mermaid, "schema", png]
-----
+[source,mermaid]
+....
 graph LR
-    A[Analyse] --> B[Nettoyage]
-    B --> C[Entraînement]
-    C --> D[Prédiction]
-----
+    Analyse --> Nettoyage --> Entraînement --> Prédiction
+....
 
 [mermaid, "data_schema", png]
 ----
